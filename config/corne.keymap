@@ -33,7 +33,7 @@
 &kp EQUAL  &kp EXCL   &kp AT  &kp POUND  &kp DLLR  &kp PRCNT     &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp MINUS
 &kp EQUAL  &kp GRAVE  &none   &none      &none     &none         &kp LPAR   &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &kp RPAR
 &trans     &trans     &trans  &trans     &trans    &none         &trans     &trans    &trans    &trans    &trans    &trans
-                              &trans     &trans    &kp DELETE    &trans     &trans    &trans
+                              &trans     &trans    &kp DELETE    &trans     &mo 3     &mo 4
             >;
         };
 
@@ -57,7 +57,7 @@
             bindings = <
 &none       &none         &none         &none         &none         &none           &none   &none   &none   &none   &none   &none
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none   &none   &none   &none   &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&none       &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                         &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
