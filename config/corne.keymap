@@ -41,7 +41,7 @@
             bindings = <
 &trans                &trans    &trans    &trans          &trans           &trans                   &kp KP_NUMLOCK  &kp N7   &kp N8     &kp N9  &kp FSLH   &kp KP_ASTERISK
 &kp LEFT_PARENTHESIS  &kp LBKT  &kp RBKT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS    &none           &kp N4   &kp N5     &kp N6  &kp MINUS  &kp EQUAL
-&trans                &trans    &trans    &trans          &trans           &trans                   &none           &kp N1   &kp N2     &kp N3  &kp RET    &kp ENTER
+&trans                &trans    &trans    &trans          &trans           &trans                   &kp K           &kp N1   &kp N2     &kp N3  &kp RET    &kp ENTER
                                           &trans          &trans           &trans                   &kp N0          &kp DOT  &kp SPACE
             >;
         };
@@ -50,16 +50,16 @@
             bindings = <
 &kp EQUAL  &kp EXCL   &kp AT  &kp POUND  &kp DLLR  &kp PRCNT     &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp MINUS
 &kp EQUAL  &kp GRAVE  &none   &none      &none     &none         &kp LPAR   &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &kp RPAR
-&trans     &trans     &trans  &trans     &trans    &none         &trans     &trans    &trans    &trans    &trans    &trans
+&trans     &trans     &trans  &trans     &trans    &none         &kp S      &trans    &trans    &trans    &trans    &trans
                               &trans     &trans    &kp DELETE    &trans     &trans    &trans
             >;
         };
 
         Arrows {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &none   &trans    &kp UP    &trans     &trans  &trans
 &trans  &kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &kp LC(Z)  &trans     &trans     &trans     &trans    &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &kp LC(Z)  &trans     &trans     &trans     &trans    &kp A   &trans    &trans    &trans     &trans  &trans
                               &trans     &trans     &trans    &trans  &trans    &trans
             >;
         };
@@ -73,9 +73,9 @@
 
             display-name = "Lower";
             bindings = <
-&none       &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &kp Y   &none   &none   &none   &none   &none
+&none       &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &none   &none   &none   &none   &none   &none
 &bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &none   &none   &none   &none   &trans  &trans
-&none       &bt BT_PRV     &bt BT_NXT     &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans
+&none       &bt BT_PRV     &bt BT_NXT     &trans         &trans         &trans           &kp B   &trans  &trans  &trans  &trans  &trans
                                           &trans         &trans         &trans           &trans  &trans  &trans
             >;
         };
